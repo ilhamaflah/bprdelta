@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+
+/*********************************
+3. Home
+*********************************/
+
+.home
+{
+	width: 100%;
+	height: 75vh;
+}
+.home_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.home_content
+{
+	width: 100%;
+	height: 514px;
+}
+.home_content_inner
+{
+	position: absolute;
+	top: 59%;
+	left: 0;
+}
+.home_title
+{
+	font-family: 'gill', sans-serif;
+	font-size: 72px;
+	color: #FFFFFF;
+	line-height: 0.75;
+}
+.home_breadcrumbs
+{
+	height: 23px;
+	margin-top: 22px;
+}
+.home_breadcrumbs ul
+{
+	display: inline-block;
+	padding-left: 9px;
+	padding-right: 13px;
+	background: #FB873E;
+}
+.home_breadcrumbs ul li
+{
+	display: inline-block;
+	font-family: 'gill', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 23px;
+	-webkit-transform: translateY(-1px);
+	-moz-transform: translateY(-1px);
+	-ms-transform: translateY(-1px);
+	-o-transform: translateY(-1px);
+	transform: translateY(-1px);
+}
+.home_breadcrumbs ul li a
+{
+	font-family: 'gill', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 23px;
+}
+.home_breadcrumbs ul li:not(:last-child)::after
+{
+	display: inline-block;
+	content: '/';
+	margin-left: 6px;
+}
+
+/*********************************
+6. Intro
+*********************************/
+
+.intro
+{
+	padding-top: 110px;
+	padding-bottom: 110px;
+	background: #f5f9fa;
+}
+.intro_image
+{
+	max-width: 100%;
+	/*height: 394px;*/
+	margin-right: 66px;
+}
+.intro_image img
+{
+	max-width: 100%;
+}
+.intro_title
+{
+	font-family: 'gill', sans-serif;
+	color: #212121;
+	margin-top: -1px;
+}
+.intro_subtitle
+{
+	font-family: 'gill', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #a5a5a5;
+	padding-left: 6px;
+	padding-top: 30px;
+}
+.intro_subtitle::after
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	width: 68px;
+	height: 3px;
+	background: #ffa800;
+	content: '';
+}
+.intro_text
+{
+	margin-top: 32px;
+}
+.intro_text p:last-of-type
+{
+	margin-bottom: 0;
+}
+.intro_button
+{
+	margin-top: 39px;
+}

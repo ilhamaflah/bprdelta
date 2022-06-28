@@ -1,0 +1,1 @@
+<!-- <div class="register"><a href="{{ route('register') }}">register</a></div> -->
